@@ -1,0 +1,98 @@
+export const styles = {
+    container: {
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      padding: "20px",
+      backgroundColor: "#f8f8f8",
+      minHeight: "100vh",
+    },
+    header: {
+      width: "100%",
+      backgroundColor: "#a3dbe0",
+      padding: "10px 20px",
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
+      marginBottom: "20px",
+    },
+    logo: {
+      fontSize: "18px",
+      fontWeight: "bold",
+    },
+    nav: {
+      display: "flex",
+      gap: "20px",
+    },
+    navLink: {
+      textDecoration: "none",
+      color: "#333",
+      fontWeight: "bold",
+      padding: "5px 10px",
+      borderRadius: "4px",
+      transition: "background-color 0.3s ease",
+      cursor: "pointer",
+    },
+    searchIcon: {
+      fontSize: "20px",
+      cursor: "pointer",
+    },
+    emprestimoContainer: {
+      width: "100%",
+      maxWidth: "800px",
+      backgroundColor: "#ffffff",
+      padding: "20px",
+      borderRadius: "8px",
+      boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
+    },
+    tabBar: {
+      display: "flex",
+      justifyContent: "flex-start",
+      marginBottom: "20px",
+    },
+    tabButton: {
+      padding: "10px 20px",
+      backgroundColor: "#d0e6f5",
+      border: "none",
+      borderRadius: "25px 25px 0 0",
+      marginRight: "5px",
+      cursor: "pointer",
+    },
+    activeTabButton: {
+      padding: "10px 20px",
+      backgroundColor: "#76c1d3",
+      border: "none",
+      borderRadius: "25px 25px 0 0",
+      marginRight: "5px",
+      cursor: "pointer",
+    },
+    formSection: {
+      border: "1px solid #ccc",
+      borderRadius: "8px",
+      padding: "20px",
+      backgroundColor: "#f1f1f1",
+    },
+    formRow: {
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      marginBottom: "20px",
+    },
+    formField: {
+      display: "flex",
+      flexDirection: "column",
+      width: "45%",
+    },
+    input: {
+      padding: "10px",
+      border: "1px solid #ccc",
+      borderRadius: "4px",
+      marginTop: "5px",
+    },
+    radioGroup: {
+      display: "flex",
+      gap: "20px",
+    },
+  };
+  
