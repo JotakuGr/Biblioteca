@@ -9,7 +9,7 @@ function Login() {
 
   const handleLogin = () => {
     // Aqui você pode adicionar lógica de autenticação
-    <Linkto{""}>Registro</Link> // Redireciona para a página inicial
+    <Linkto{"/register"}>Registro</Link> // Redireciona para a página inicial
   };
 
   return (
